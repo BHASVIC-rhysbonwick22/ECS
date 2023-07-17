@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color: #CC12CC;}
+#grad1 {
+  height: 500px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #3A1371, #2295A4);
+}
+#container { 
+ 
+ position: absolute;
+ top: 0;
+ float: center;
+ width: 6000px; 
+ background: #FFFFFF;     
+ margin: 000 auto;     
+ border: 20px solid #000000;     
+ text-align: left;  } 
+ 
+#sidebar {
+	float: left;
+	width: 200px;
+	height: 900px;
+	background-color: #2295A4;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+} 
+`
+
+#mainContent { 
+ position: relative;
+ top: 0px;    
+ margin: 0 0 0 250px;     
+ padding: 0 20px 20px 20px;  } 
+ 
+ #demo {
+ 
+ text-align: left;  } 
+ 
+ img {
+	height: 200px ;
+    width : 100px ;	
+ }
+h1{
+	font-family: Calibri, Tahoma, Arial;
+	font-size: 80px;
+	font-weight: bold;
+	color: #0000FF;
+}
+	
+h2{
+	font-family: Calibri, Tahoma, Arial;
+	font-size: 50px;
+	font-weight: bold;
+	color: FF00FF; }
+h3{
+    font-size: 80px ;
+	
+}
+p{
+	font-family: Calibri, Tahoma, Arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: #000000; }
+
+a{
+	font-family: Calibri, Tahoma, Arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: #3399CC;
+	font-style: italic;
+	text-decoration: underline;
+}
+ol{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: #00C;
+}
+
+ul{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 50px;
+	color: #F0F;
+}
+button {
+	font-size: 50px ;
+	color : red ;
+}
